@@ -30,7 +30,7 @@ cherrypy==18.8.0
     #   -r requirements/static/ci/docs.in
 docutils==0.20.1
     # via sphinx
-idna==3.4
+idna==3.7
     # via
     #   -c requirements/static/ci/py3.9/linux.txt
     #   requests
@@ -99,7 +99,7 @@ portend==3.1.0
     # via
     #   -c requirements/static/ci/py3.9/linux.txt
     #   cherrypy
-pydantic==1.10.8
+pydantic==1.10.13
     # via
     #   -c requirements/static/ci/py3.9/linux.txt
     #   inflect
@@ -115,7 +115,7 @@ pyyaml==6.0.1
     # via
     #   -c requirements/static/ci/py3.9/linux.txt
     #   myst-docutils
-requests==2.31.0
+requests==2.32.2
     # via
     #   -c requirements/static/ci/py3.9/linux.txt
     #   sphinx
@@ -157,7 +157,7 @@ typing-extensions==4.8.0
     #   pydantic
 uc-micro-py==1.0.2
     # via linkify-it-py
-urllib3==1.26.18
+urllib3==1.26.19
     # via
     #   -c requirements/static/ci/py3.9/linux.txt
     #   requests

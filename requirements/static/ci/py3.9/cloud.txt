@@ -26,7 +26,7 @@ cryptography==42.0.5
     #   pyspnego
     #   requests-ntlm
     #   smbprotocol
-idna==3.4
+idna==3.7
     # via
     #   -c requirements/static/ci/py3.9/linux.txt
     #   requests
@@ -51,7 +51,7 @@ pywinrm==0.4.3
     # via -r requirements/static/ci/cloud.in
 requests-ntlm==1.2.0
     # via pywinrm
-requests==2.31.0
+requests==2.32.2
     # via
     #   -c requirements/static/ci/py3.9/linux.txt
     #   apache-libcloud
@@ -67,7 +67,7 @@ smbprotocol==1.10.1
     # via
     #   -r requirements/static/ci/cloud.in
     #   pypsexec
-urllib3==1.26.18
+urllib3==1.26.19
     # via
     #   -c requirements/static/ci/py3.9/linux.txt
     #   requests
