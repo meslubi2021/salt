@@ -4,7 +4,7 @@
 #
 #    pip-compile --no-emit-index-url --output-file=requirements/static/pkg/py3.10/windows.txt requirements/static/pkg/windows.in requirements/windows.txt
 #
-aiohttp==3.9.4
+aiohttp==3.9.5
     # via -r requirements/base.txt
 aiosignal==1.3.1
     # via aiohttp
@@ -95,7 +95,7 @@ pycparser==2.21
     # via cffi
 pycryptodomex==3.19.1
     # via -r requirements/crypto.txt
-pydantic==1.10.13
+pydantic==2.7.4
     # via inflect
 pymssql==2.2.7 ; sys_platform == "win32"
     # via -r requirements/base.txt
@@ -119,7 +119,7 @@ pyyaml==6.0.1
     # via -r requirements/base.txt
 pyzmq==25.1.2
     # via -r requirements/zeromq.txt
-requests==2.32.2
+requests==2.32.3
     # via -r requirements/base.txt
 setproctitle==1.3.2
     # via -r requirements/base.txt
@@ -135,7 +135,7 @@ typing-extensions==4.8.0
     # via
     #   inflect
     #   pydantic
-urllib3==1.26.19
+urllib3==2.2.2
     # via requests
 wmi==1.5.1 ; sys_platform == "win32"
     # via -r requirements/base.txt

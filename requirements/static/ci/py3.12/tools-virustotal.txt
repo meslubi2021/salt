@@ -12,15 +12,15 @@ charset-normalizer==3.2.0
     # via
     #   -c requirements/static/ci/../ci/py3.12/tools.txt
     #   requests
-idna==3.4
+idna==3.7
     # via
     #   -c requirements/static/ci/../ci/py3.12/tools.txt
     #   requests
-requests==2.31.0
+requests==2.32.2
     # via
     #   -c requirements/static/ci/../ci/py3.12/tools.txt
     #   virustotal3
-urllib3==1.26.18
+urllib3==1.26.19
     # via
     #   -c requirements/static/ci/../ci/py3.12/tools.txt
     #   requests

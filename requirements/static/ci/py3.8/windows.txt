@@ -4,7 +4,7 @@
 #
 #    pip-compile --no-emit-index-url --output-file=requirements/static/ci/py3.8/windows.txt requirements/pytest.txt requirements/static/ci/common.in requirements/static/ci/windows.in requirements/static/pkg/windows.in requirements/windows.txt
 #
-aiohttp==3.9.2
+aiohttp==3.9.4
     # via
     #   -c requirements/static/ci/../pkg/py3.8/windows.txt
     #   -r requirements/base.txt
@@ -112,7 +112,7 @@ distro==1.8.0
     #   pytest-skip-markers
 dmidecode==0.9.0
     # via -r requirements/static/ci/windows.in
-dnspython==2.3.0
+dnspython==2.6.1
     # via
     #   -r requirements/static/ci/common.in
     #   python-etcd
@@ -141,7 +141,7 @@ gitpython==3.1.41
     # via -r requirements/static/ci/common.in
 google-auth==2.27.0
     # via kubernetes
-idna==3.4
+idna==3.7
     # via
     #   -c requirements/static/ci/../pkg/py3.8/windows.txt
     #   etcd3-py
@@ -287,7 +287,7 @@ pycryptodomex==3.19.1
     # via
     #   -c requirements/static/ci/../pkg/py3.8/windows.txt
     #   -r requirements/crypto.txt
-pydantic==1.10.8
+pydantic==1.10.13
     # via
     #   -c requirements/static/ci/../pkg/py3.8/windows.txt
     #   inflect
@@ -299,7 +299,7 @@ pymssql==2.2.7 ; sys_platform == "win32"
     # via
     #   -c requirements/static/ci/../pkg/py3.8/windows.txt
     #   -r requirements/base.txt
-pymysql==1.1.0 ; sys_platform == "win32"
+pymysql==1.1.1 ; sys_platform == "win32"
     # via
     #   -c requirements/static/ci/../pkg/py3.8/windows.txt
     #   -r requirements/base.txt
@@ -398,7 +398,7 @@ pyzmq==25.1.2
     #   pytest-salt-factories
 requests-ntlm==1.2.0
     # via pywinrm
-requests==2.31.0
+requests==2.32.2
     # via
     #   -c requirements/static/ci/../pkg/py3.8/windows.txt
     #   -r requirements/base.txt
@@ -442,7 +442,7 @@ six==1.15.0
     #   websocket-client
 smmap==5.0.1
     # via gitdb
-sqlparse==0.4.4
+sqlparse==0.5.0
     # via -r requirements/static/ci/common.in
 strict-rfc3339==0.7
     # via -r requirements/static/ci/common.in
@@ -458,7 +458,7 @@ toml==0.10.2
     # via -r requirements/static/ci/common.in
 tomli==2.0.1
     # via pytest
-tornado==6.3.3
+tornado==6.4.1
     # via
     #   -c requirements/static/ci/../pkg/py3.8/windows.txt
     #   -r requirements/base.txt
@@ -473,7 +473,7 @@ typing-extensions==4.8.0
     #   pydantic
     #   pytest-shell-utilities
     #   pytest-system-statistics
-urllib3==1.26.18
+urllib3==1.26.19
     # via
     #   -c requirements/static/ci/../pkg/py3.8/windows.txt
     #   botocore
