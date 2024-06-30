@@ -4,7 +4,7 @@
 #
 #    pip-compile --no-emit-index-url --output-file=requirements/static/pkg/py3.12/linux.txt requirements/base.txt requirements/static/pkg/linux.in requirements/zeromq.txt
 #
-aiohttp==3.9.4
+aiohttp==3.9.5
     # via -r requirements/base.txt
 aiosignal==1.3.1
     # via aiohttp
@@ -105,7 +105,7 @@ pyyaml==6.0.1
     # via -r requirements/base.txt
 pyzmq==25.1.2
     # via -r requirements/zeromq.txt
-requests==2.32.2
+requests==2.32.3
     # via -r requirements/base.txt
 rpm-vercmp==0.1.2 ; sys_platform == "linux"
     # via -r requirements/base.txt
@@ -126,7 +126,7 @@ typing-extensions==4.8.0
     #   inflect
     #   pydantic
     #   pydantic-core
-urllib3==1.26.19
+urllib3==2.2.2
     # via requests
 yarl==1.9.4
     # via aiohttp
