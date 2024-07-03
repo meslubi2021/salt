@@ -99,7 +99,7 @@ portend==3.1.0
     # via
     #   -c requirements/static/ci/py3.9/linux.txt
     #   cherrypy
-pydantic==2.7.4
+pydantic==2.8.0
     # via
     #   -c requirements/static/ci/py3.9/linux.txt
     #   inflect

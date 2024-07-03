@@ -38,7 +38,7 @@ packaging==23.1
     # via -r requirements/static/ci/tools.in
 pydantic-core==2.16.2
     # via pydantic
-pydantic==2.7.4
+pydantic==2.8.0
     # via python-tools-scripts
 pygments==2.15.1
     # via rich
@@ -48,7 +48,7 @@ python-tools-scripts==0.20.0
     # via -r requirements/static/ci/tools.in
 pyyaml==6.0.1
     # via -r requirements/static/ci/tools.in
-requests==2.32.2
+requests==2.32.3
     # via python-tools-scripts
 rich==13.4.2
     # via python-tools-scripts
@@ -60,7 +60,7 @@ typing-extensions==4.9.0
     # via
     #   pydantic
     #   pydantic-core
-urllib3==1.26.19
+urllib3==2.2.2
     # via
     #   botocore
     #   requests

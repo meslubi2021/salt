@@ -283,7 +283,7 @@ pycryptodomex==3.19.1
     # via
     #   -c requirements/static/ci/../pkg/py3.9/windows.txt
     #   -r requirements/crypto.txt
-pydantic==2.7.4
+pydantic==2.8.0
     # via
     #   -c requirements/static/ci/../pkg/py3.9/windows.txt
     #   inflect
