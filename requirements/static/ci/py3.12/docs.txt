@@ -4,7 +4,7 @@
 #
 #    pip-compile --no-emit-index-url --output-file=requirements/static/ci/py3.12/docs.txt requirements/base.txt requirements/static/ci/docs.in requirements/zeromq.txt
 #
-aiohttp==3.9.4
+aiohttp==3.9.5
     # via
     #   -c requirements/static/ci/py3.12/linux.txt
     #   -r requirements/base.txt
@@ -212,7 +212,7 @@ pyzmq==25.1.2
     # via
     #   -c requirements/static/ci/py3.12/linux.txt
     #   -r requirements/zeromq.txt
-requests==2.32.2
+requests==2.32.3
     # via
     #   -c requirements/static/ci/py3.12/linux.txt
     #   -r requirements/base.txt
@@ -274,7 +274,7 @@ typing-extensions==4.8.0
     #   pydantic-core
 uc-micro-py==1.0.1
     # via linkify-it-py
-urllib3==1.26.19
+urllib3==2.2.2
     # via
     #   -c requirements/static/ci/py3.12/linux.txt
     #   requests
