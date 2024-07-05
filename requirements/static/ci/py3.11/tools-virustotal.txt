@@ -4,7 +4,7 @@
 #
 #    pip-compile --output-file=requirements/static/ci/py3.11/tools-virustotal.txt requirements/static/ci/tools-virustotal.in
 #
-certifi==2023.7.22
+certifi==2024.7.4
     # via
     #   -c requirements/static/ci/../ci/py3.11/tools.txt
     #   requests
@@ -20,7 +20,7 @@ requests==2.31.0
     # via
     #   -c requirements/static/ci/../ci/py3.11/tools.txt
     #   virustotal3
-urllib3==1.26.18
+urllib3==1.26.19
     # via
     #   -c requirements/static/ci/../ci/py3.11/tools.txt
     #   requests
