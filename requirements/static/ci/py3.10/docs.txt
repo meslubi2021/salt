@@ -12,7 +12,7 @@ autocommand==2.2.2
     #   jaraco.text
 babel==2.12.1
     # via sphinx
-certifi==2023.07.22
+certifi==2024.7.4
     # via
     #   -c requirements/static/ci/py3.10/linux.txt
     #   requests
@@ -153,7 +153,7 @@ typing-extensions==4.8.0
     #   pydantic
 uc-micro-py==1.0.2
     # via linkify-it-py
-urllib3==1.26.18
+urllib3==1.26.19
     # via
     #   -c requirements/static/ci/py3.10/linux.txt
     #   requests
