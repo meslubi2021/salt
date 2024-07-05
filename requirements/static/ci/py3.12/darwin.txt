@@ -4,7 +4,7 @@
 #
 #    pip-compile --no-emit-index-url --output-file=requirements/static/ci/py3.12/darwin.txt requirements/darwin.txt requirements/pytest.txt requirements/static/ci/common.in requirements/static/ci/darwin.in requirements/static/pkg/darwin.in
 #
-aiohttp==3.9.4
+aiohttp==3.9.5
     # via
     #   -c requirements/static/ci/../pkg/py3.12/darwin.txt
     #   -r requirements/base.txt
@@ -55,7 +55,7 @@ cachetools==5.3.1
     # via google-auth
 cassandra-driver==3.28.0
     # via -r requirements/static/ci/common.in
-certifi==2023.07.22
+certifi==2024.7.4
     # via
     #   -c requirements/static/ci/../pkg/py3.12/darwin.txt
     #   -r requirements/static/ci/common.in
@@ -428,7 +428,7 @@ pyzmq==25.1.2
     #   -c requirements/static/ci/../pkg/py3.12/darwin.txt
     #   -r requirements/zeromq.txt
     #   pytest-salt-factories
-requests==2.32.2
+requests==2.32.3
     # via
     #   -c requirements/static/ci/../pkg/py3.12/darwin.txt
     #   -r requirements/base.txt
@@ -524,7 +524,7 @@ typing-extensions==4.8.0
     #   pydantic-core
     #   pytest-shell-utilities
     #   pytest-system-statistics
-urllib3==1.26.19
+urllib3==2.2.2
     # via
     #   -c requirements/static/ci/../pkg/py3.12/darwin.txt
     #   botocore
