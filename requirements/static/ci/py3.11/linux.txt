@@ -6,7 +6,7 @@
 #
 aiohttp-retry==2.8.3
     # via twilio
-aiohttp==3.9.2
+aiohttp==3.9.4
     # via
     #   -c requirements/static/ci/../pkg/py3.11/linux.txt
     #   -r requirements/base.txt
@@ -65,7 +65,7 @@ cachetools==5.3.1
     # via google-auth
 cassandra-driver==3.28.0
     # via -r requirements/static/ci/common.in
-certifi==2023.07.22
+certifi==2024.7.4
     # via
     #   -c requirements/static/ci/../pkg/py3.11/linux.txt
     #   -r requirements/static/ci/common.in
@@ -126,7 +126,7 @@ distro==1.8.0
     #   -c requirements/static/ci/../pkg/py3.11/linux.txt
     #   -r requirements/base.txt
     #   pytest-skip-markers
-dnspython==2.3.0
+dnspython==2.6.1
     # via
     #   -r requirements/static/ci/common.in
     #   python-etcd
@@ -371,7 +371,7 @@ pyinotify==0.9.6 ; sys_platform != "win32" and sys_platform != "darwin" and plat
     # via -r requirements/static/ci/common.in
 pyjwt==2.4.0
     # via twilio
-pymysql==1.1.0
+pymysql==1.1.1
     # via -r requirements/static/ci/linux.in
 pynacl==1.5.0
     # via
@@ -474,7 +474,7 @@ redis-py-cluster==2.1.3
     # via -r requirements/static/ci/linux.in
 redis==3.5.3
     # via redis-py-cluster
-requests==2.31.0
+requests==2.32.2
     # via
     #   -c requirements/static/ci/../pkg/py3.11/linux.txt
     #   -r requirements/base.txt
@@ -546,7 +546,7 @@ sniffio==1.3.0
     #   anyio
     #   httpcore
     #   httpx
-sqlparse==0.4.4
+sqlparse==0.5.0
     # via -r requirements/static/ci/common.in
 strict-rfc3339==0.7
     # via -r requirements/static/ci/common.in
@@ -565,7 +565,7 @@ timelib==0.3.0
     #   -r requirements/base.txt
 toml==0.10.2
     # via -r requirements/static/ci/common.in
-tornado==6.3.3
+tornado==6.4.1
     # via
     #   -c requirements/static/ci/../pkg/py3.11/linux.txt
     #   -r requirements/base.txt
@@ -592,7 +592,7 @@ typing-extensions==4.8.0
     #   pydantic-core
     #   pytest-shell-utilities
     #   pytest-system-statistics
-urllib3==1.26.18
+urllib3==1.26.19
     # via
     #   -c requirements/static/ci/../pkg/py3.11/linux.txt
     #   botocore
