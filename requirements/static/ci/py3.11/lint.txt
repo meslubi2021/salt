@@ -6,7 +6,7 @@
 #
 astroid==3.1.0
     # via pylint
-certifi==2023.07.22
+certifi==2024.7.4
     # via
     #   -c requirements/static/ci/py3.11/linux.txt
     #   requests
@@ -40,7 +40,7 @@ pylint==3.1.0
     # via
     #   -r requirements/static/ci/lint.in
     #   saltpylint
-requests==2.31.0
+requests==2.32.2
     # via
     #   -c requirements/static/ci/py3.11/linux.txt
     #   docker
@@ -56,7 +56,7 @@ toml==0.10.2
     #   -r requirements/static/ci/lint.in
 tomlkit==0.12.3
     # via pylint
-urllib3==1.26.18
+urllib3==1.26.19
     # via
     #   -c requirements/static/ci/py3.11/linux.txt
     #   docker
